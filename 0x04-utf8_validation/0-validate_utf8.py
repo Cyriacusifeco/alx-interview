@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Function to validate utf8 character sequence.
+
+"""
 
 
 def validUTF8(data):
