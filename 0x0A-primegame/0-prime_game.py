@@ -4,6 +4,9 @@ A module that determines the winner of a primegame.
 """
 
 def sieve_of_eratosthenes(n):
+    """
+    A function to effeciently find prime numbers up to n.
+    """
     # Create a boolean array "prime[0..n]" and initialize
     # all entries as true. A value in prime[i] will
     # finally be false if i is Not a prime, else true.
@@ -20,6 +23,9 @@ def sieve_of_eratosthenes(n):
 
 
 def isWinner(x, nums):
+    """
+    A function that determines the winner of each game.
+    """
     # Generate a list of prime numbers up to the maximum n in nums
     max_n = max(nums)
     primes = sieve_of_eratosthenes(max_n)
