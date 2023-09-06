@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+A module that determines the winner of a primegame.
+"""
 
 def sieve_of_eratosthenes(n):
     # Create a boolean array "prime[0..n]" and initialize
