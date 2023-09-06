@@ -3,6 +3,7 @@
 A module that determines the winner of a primegame.
 """
 
+
 def sieve_of_eratosthenes(n):
     """
     A function to effeciently find prime numbers up to n.
